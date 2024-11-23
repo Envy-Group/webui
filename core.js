@@ -2,7 +2,7 @@
 // (c) OwnedByWuigi 2024
 
 console.log(
-    "%cBoo!\n%cIf someone told you to copypaste something here, there's a 11/10 chance you don't know what you're doing. \n \nPasting any code into this console can expose your private account information and/or files to external sources. Use this console at your own risk.%c\n\nIn the rare case that you %cdo %cknow what you're doing, please contribute to this project kthxbye :3 \n\nhttps://github.com/envyjs/os",
+    "%cBoo!\n%cIf someone told you to copypaste something here, there's a 11/10 chance you don't know what you're doing. \n \nPasting any code into this console can expose your private account information and/or files to external sources. Use this console at your own risk.%c\n\nIn the rare case that you %cdo %cknow what you're doing, please contribute to this project kthxbye :3 \n\nhttps://github.com/envy-group/webui",
     "color: magenta;font-size: 78px",
     "color: auto;font-size: large;",
     "color: auto;font-size:1.2rem",
@@ -35,4 +35,4 @@ function loadScript(url, callback) {
     document.head.appendChild(script);
 }
 console.log("[CORE] Core loaded");
-loadScript('./UI/desktop.js');
+loadScript('./UI/lock.js');
