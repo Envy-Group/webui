@@ -24,6 +24,32 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -3;
+}
+
+#lock {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(/Assets/Void.jpg);
+  background-size: cover;
+  z-index: -4;
+}
+
+.lt {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  font-weight: 900;
+  font-size: 55px;
+  color: white;
+}
+
+.ld {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 button, input {
@@ -259,51 +285,59 @@ button:hover {
     top: -3px;
     left: -3px;
     cursor: nwse-resize;
+    opacity: 0;
   }
   
   .resize-handle.top-right {
     top: -3px;
     right: -3px;
     cursor: nesw-resize;
+    opacity: 0;
   }
   
   .resize-handle.bottom-left {
     bottom: -3px;
     left: -3px;
     cursor: nesw-resize;
+    opacity: 0;
   }
   
   .resize-handle.bottom-right {
     bottom: -3px;
     right: -3px;
     cursor: nwse-resize;
+    opacity: 0;
   }
   
   .resize-handle.top {
     top: -5px;
     left: 0;
     cursor: ns-resize;
+    opacity: 0;
   }
   
   .resize-handle.bottom {
     bottom: -5px;
     left: 0;
     cursor: ns-resize;
+    opacity: 0;
   }
   
   .resize-handle.left {
     left: -5px;
     top: 0;
     cursor: ew-resize;
+    opacity: 0;
   }
   
   .resize-handle.right {
     right: -5px;
     top: 0;
     cursor: ew-resize;
+    opacity: 0;
   }
 
-  #notification-container {
+  #notificationContainer {
     position: fixed;
     bottom: 70px;
     right: 20px;
