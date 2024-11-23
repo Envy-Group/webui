@@ -1,6 +1,6 @@
 var content = document.createElement("div");
 content.innerHTML = `
-    <div id="lock" onclick="loadScript('/UI/desktop.js');">
+    <div id="lock" onclick="loadScript('./UI/desktop.js');">
         <div class="lt">
             <div id="lockclock">
         </div>
