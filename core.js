@@ -35,4 +35,4 @@ function loadScript(url, callback) {
     document.head.appendChild(script);
 }
 console.log("[CORE] Core loaded");
-loadScript('/UI/desktop.js');
+loadScript('./UI/desktop.js');
